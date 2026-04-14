@@ -33,6 +33,7 @@ Run the API:
 uvicorn api:app --reload
 
 Example request
+
 POST /predict
 
 {
@@ -48,6 +49,7 @@ Example response
 }
 
 Batch example
+
 POST /predict_batch
 
 {
