@@ -31,25 +31,32 @@ python train.py
 Run the API:
 
 uvicorn api:app --reload
+
 Example request
 POST /predict
+
 {
-  "text": "Wygrałeś iPhone kliknij teraz"
+"text": "Wygrałeś iPhone kliknij teraz"
 }
+
 Example response
+
 {
-  "text": "Wygrałeś iPhone kliknij teraz",
-  "prediction": "spam",
-  "confidence": 0.698
+"text": "Wygrałeś iPhone kliknij teraz",
+"prediction": "spam",
+"confidence": 0.698
 }
+
 Batch example
 POST /predict_batch
+
 {
-  "texts": [
-    "Wygrałeś iPhone kliknij teraz",
-    "Spotkamy się jutro"
-  ]
+"texts": [
+"Wygrałeś iPhone kliknij teraz",
+"Spotkamy się jutro"
+]
 }
+
 Notes
 
 This project demonstrates:
