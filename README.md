@@ -3,7 +3,7 @@ ML Spam Classifier API
 This project is a simple machine learning API for spam detection.
 It uses TF-IDF vectorization and Logistic Regression to classify text messages as spam or ham.
 
-Features
+## Features
 Single text prediction (/predict)
 Batch prediction (/predict_batch)
 Confidence score for each prediction
